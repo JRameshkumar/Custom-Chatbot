@@ -16,11 +16,6 @@ dotenv.load_dotenv()
 google_models = ["gemini-1.5-flash", "gemini-1.5-pro"]
 openai_models = ["gpt-4o", "gpt-4-turbo", "gpt-3.5-turbo-16k", "gpt-4", "gpt-4-32k"]
 
-headers = {
-    "authorization": st.secrets["OPENAI_API_KEY", "GOOGLE_API_KEY"],
-    "content-type":"application/json"
-}
-
 # Function to convert the messages format from OpenAI and Gemini to Streamlit
 def messages_to_gemini(messages):
     gemini_messages = []
