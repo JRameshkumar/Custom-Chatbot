@@ -145,13 +145,13 @@ def main():
         st.write("#")
         st.warning("⬅️ Please introduce an API Key to continue...")
 
-        with st.sidebar:
-            st.write("#")
-            st.write("#")
-            st.video("https://www.youtube.com/watch?v=7i9j8M_zidA")
-            st.write("📋[Medium Blog: OpenAI GPT-4o](https://medium.com/@enricdomingo/code-the-omnichat-app-integrating-gpt-4o-your-python-chatgpt-d399b90d178e)")
-            st.video("https://www.youtube.com/watch?v=1IQmWVFNQEs")
-            st.write("📋[Medium Blog: Google Gemini](https://medium.com/@enricdomingo/how-i-add-gemini-1-5-pro-api-to-my-app-chat-with-videos-images-and-audios-f42171606143)")
+       #with st.sidebar:
+            #st.write("#")
+            #st.write("#")
+            #st.video("https://www.youtube.com/watch?v=7i9j8M_zidA")
+            #st.write("📋[Medium Blog: OpenAI GPT-4o](https://medium.com/@enricdomingo/code-the-omnichat-app-integrating-gpt-4o-your-python-chatgpt-d399b90d178e)")
+            #st.video("https://www.youtube.com/watch?v=1IQmWVFNQEs")
+            #st.write("📋[Medium Blog: Google Gemini](https://medium.com/@enricdomingo/how-i-add-gemini-1-5-pro-api-to-my-app-chat-with-videos-images-and-audios-f42171606143)")
 
     else:
         client = OpenAI(api_key=openai_api_key)
