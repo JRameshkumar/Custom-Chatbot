@@ -8,8 +8,6 @@ import base64
 from io import BytesIO
 import google.generativeai as genai
 import random
-import streamlit_scrollable_textbox as stx
-
 
 dotenv.load_dotenv()
 
